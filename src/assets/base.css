@@ -1,0 +1,71 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+/* html, body {
+  height: 100%;
+} */
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--ff);
+  background-color: var(--clr-neutral-100);
+  font-size: 2rem;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+:root {
+  --clr-primary-400: hsl(259, 100%, 65%);
+  --clr-secundary-300: hsl(0, 100%, 67%);
+  --clr-neutral-0: hsl(0, 0%, 100%);
+  --clr-neutral-100: hsl(0, 0%, 94%);
+  --clr-neutral-200: hsl(0, 0%, 86%);
+  --clr-neutral-500: hsl(0, 1%, 44%);
+  --clr-neutral-900: hsl(0, 0%, 8%);
+
+  --fw-reg-400: 400;
+  --fw-bold-700: 700;
+  --fw-xbold-800: 800;
+
+  --ff: 'Poppins', sans-serif;
+}
