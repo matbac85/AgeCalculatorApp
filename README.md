@@ -1,10 +1,10 @@
-# Frontend Mentor - Age calculator app
-
+# Age Calculator App project
 My solution : https://matbac85.github.io/AgeCalculatorApp/
 
-## The challenge
+## Age calculator app using Vue 3 Composition API
+This is a simple web application built with Vue 3 and the Composition API that allows users to submit their birth date to know their exact age (in years, months and days).
 
-The challenge was to build out this age calculator app and get it looking as close to the design as possible.
+## Features
 
 The users should be able to: 
 
