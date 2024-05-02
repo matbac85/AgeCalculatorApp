@@ -1,20 +1,33 @@
-# Age Calculator App project
-My solution : https://matbac85.github.io/AgeCalculatorApp/
+# Age Calculator App
 
-## Age calculator app using Vue 3 Composition API
-This is a simple web application built with Vue 3 and the Composition API that allows users to submit their birth date to know their exact age (in years, months and days).
+![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
+
+## Overview
+
+This age calculator app was developed as a solution to the Frontend Mentor challenge. The challenge required building an app that calculates age in years, months, and days based on the date submitted through a form. The app should closely match the provided design and include validation for the form fields.
 
 ## Features
 
-The users should be able to: 
+- Users can view an age in years, months, and days after submitting a valid date through the form.
+- Validation errors are displayed for empty fields, invalid day and month numbers, future dates, and invalid dates.
+- Users can view the optimal layout for the interface depending on their device's screen size.
+- Hover and focus states are implemented for all interactive elements on the page.
+- **Bonus**: Age numbers animate to their final number when the form is submitted.
 
-- View an age in years, months, and days after submitting a valid date through the form
-- Receive validation errors if:
-  - Any field is empty when the form is submitted
-  - The day number is not between 1-31
-  - The month number is not between 1-12
-  - The year is in the future
-  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- See the age numbers animate to their final number when the form is submitted
+## Expected Behavior
+
+- Users should be able to view an age in years, months, and days after submitting a valid date through the form.
+- Validation errors should be displayed for empty fields, invalid day and month numbers, future dates, and invalid dates.
+- Users should be able to view the optimal layout for the interface depending on their device's screen size.
+- Hover and focus states should be implemented for all interactive elements on the page.
+- **Bonus**: Age numbers should animate to their final number when the form is submitted.
+
+## Technologies Used
+
+- Vue.js
+- Tailwind CSS
+
+## Links
+
+- Solution URL: [Age Calculator App Solution](https://matbac85.github.io/AgeCalculatorApp/)
+- Frontend Mentor Profile: [My Frontend Mentor Profile](https://www.frontendmentor.io/profile/matbac85)
