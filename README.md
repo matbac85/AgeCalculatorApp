@@ -1,29 +1,33 @@
-# age-calculator
+# Age Calculator App
 
-This template should help get you started developing with Vue 3 in Vite.
+![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
 
-## Recommended IDE Setup
+## Overview
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This age calculator app was developed as a solution to the Frontend Mentor challenge. The challenge required building an app that calculates age in years, months, and days based on the date submitted through a form. The app should closely match the provided design and include validation for the form fields.
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Users can view an age in years, months, and days after submitting a valid date through the form.
+- Validation errors are displayed for empty fields, invalid day and month numbers, future dates, and invalid dates.
+- Users can view the optimal layout for the interface depending on their device's screen size.
+- Hover and focus states are implemented for all interactive elements on the page.
+- **Bonus**: Age numbers animate to their final number when the form is submitted.
 
-## Project Setup
+## Expected Behavior
 
-```sh
-npm install
-```
+- Users should be able to view an age in years, months, and days after submitting a valid date through the form.
+- Validation errors should be displayed for empty fields, invalid day and month numbers, future dates, and invalid dates.
+- Users should be able to view the optimal layout for the interface depending on their device's screen size.
+- Hover and focus states should be implemented for all interactive elements on the page.
+- **Bonus**: Age numbers should animate to their final number when the form is submitted.
 
-### Compile and Hot-Reload for Development
+## Technologies Used
 
-```sh
-npm run dev
-```
+- Vue.js
+- Tailwind CSS
 
-### Compile and Minify for Production
+## Links
 
-```sh
-npm run build
-```
+- Solution URL: [Age Calculator App Solution](https://matbac85.github.io/AgeCalculatorApp/)
+- Frontend Mentor Profile: [My Frontend Mentor Profile](https://www.frontendmentor.io/profile/matbac85)
